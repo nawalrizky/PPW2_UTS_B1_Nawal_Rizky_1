@@ -12,6 +12,10 @@
     @include('pemain.navbar')
     <div class="container mx-auto mt-10 p-4">
        @yield('content')
+       
+    <dotlottie-player class="mx-auto" src="https://lottie.host/8f288154-5bff-49a7-bbad-3bf960c32991/cvmcZwn5s7.json" background="transparent" speed="1" style="width: 300px; height: 300px;" loop autoplay></dotlottie-player>
     </div>
 </body>
+<script src="https://unpkg.com/@dotlottie/player-component@latest/dist/dotlottie-player.mjs" type="module"></script> 
+
 </html>
